@@ -40,6 +40,8 @@ Install the required dependencies using:
 pip install -r requirements.txt
 ```
 #### Usage:
+Firstly you need to change SOURCE_FOLDER AND OUTPUT FOLDER in yours needed folders in  **copy_and_group_images.py** and **rename_folders.py** files
+
 
 To copy and group images by location, run:
 ```
