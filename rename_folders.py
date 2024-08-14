@@ -39,5 +39,5 @@ def rename_folders_based_on_gps(root_directory):
                 print(f"No GPS data found in images in folder: {folder_name}")
 
 # Example usage:
-root_directory = '/path/to/root_directory'
+root_directory = 'SOURCE_FOLDER'
 rename_folders_based_on_gps(root_directory)

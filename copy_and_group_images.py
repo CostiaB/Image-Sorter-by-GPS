@@ -59,6 +59,6 @@ def copy_and_group_jpg_files(src_dir, dest_dir, min_size_kb=40, max_distance_km=
 
 
 # Usage:
-source_directory = '/path/to/source_directory'
-destination_directory = '/path/to/destination_directory'
+source_directory = 'SOURCE_FOLDER'
+destination_directory = 'OUTPUT_FOLDER'
 copy_and_group_jpg_files(source_directory, destination_directory)
