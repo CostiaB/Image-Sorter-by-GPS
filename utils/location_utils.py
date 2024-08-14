@@ -38,7 +38,7 @@ def get_location_name(geolocator, coordinates):
             else:
                 return location.address.split(",")[0]
     except GeocoderTimedOut:
-        print(f"GeocoderTimedOut: Could not get location for {coordinates}")
+        print(f"GeocoderTimedOut: Could not get location for  {coordinates}")
         return "unknown_location"
     except Exception as e:
         print(f"Error in get_location_name: {e}")

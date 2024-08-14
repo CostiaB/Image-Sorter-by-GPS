@@ -5,7 +5,7 @@ from utils.location_utils import get_location_name, haversine
 from geopy.geocoders import Nominatim
 
 
-def copy_and_group_jpg_files(src_dir, dest_dir, min_size_kb=10, max_distance_km=100):
+def copy_and_group_jpg_files(src_dir, dest_dir, min_size_kb=40, max_distance_km=200):
     if not os.path.exists(dest_dir):
         os.makedirs(dest_dir)
 

@@ -18,7 +18,7 @@ def get_exif_data(image):
                 else:
                     exif_data[tag_name] = value
     except Exception as e:
-        print(f"Error getting EXIF data from {image}: {e}")
+        print(f"Error getting EXIF data from {image}: {e} ")
     return exif_data
 
 def get_coordinates(gps_info):
